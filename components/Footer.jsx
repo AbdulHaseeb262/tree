@@ -207,7 +207,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-[#f6f1d1] text-[#114524] flex justify-between text-xs px-6 py-4 select-none">
-        <span>© Copyright 2025 – Lawnc. All Rights Reserved.</span>
+        <span>© Copyright 2025 – landsynergy. All Rights Reserved.</span>
         <span className="underline cursor-pointer hover:text-[#d0a900]">
           Privacy &amp; Policy
         </span>
