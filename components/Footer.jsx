@@ -28,15 +28,13 @@ const Footer = () => {
         </div>
 
         {/* Center and Right Section */}
-        <div className="md:w-2/3 bg-[#f6f1d1] text-[#114524] rounded-lg p-8 flex flex-col md:flex-row md:justify-between relative">
+        <div className="md:w-2/3 bg-[#f6f1d1] text-[#114524] rounded-lg p-12 min-h-[20rem] flex flex-col md:flex-row md:justify-between relative">
           {/* Headline */}
-          <div className="hidden md:block absolute -top-8 left-16 text-2xl font-serif font-semibold max-w-xs tracking-tight select-none">
-            Your Property Deserves
-            <br />
-            the Best Tree Care
+          <div className="hidden md:block absolute top-2 left-8 text-2xl font-serif font-semibold tracking-tight select-none whitespace-nowrap">
+            Your Property Deserves the Best Tree Care
           </div>
 
-          <div className="flex flex-col md:flex-row w-full justify-between">
+          <div className="flex flex-col md:flex-row w-full justify-between top-6 relative">
             {/* Top Links */}
             <div className="mb-6 md:mb-0">
               <h4 className="mb-4 font-semibold font-serif text-lg">
@@ -106,7 +104,11 @@ const Footer = () => {
                     strokeWidth="2"
                     viewBox="0 0 24 24"
                   >
-                    <path d="M22 16.92v3a2 2 0..."></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.286 3.858a1 1 0 0 1-.21.987l-2.42 2.42a11.042 11.042 0 0 0 4.516 4.516l2.42-2.42a1 1 0 0 1 .987-.21l3.858 1.286a1 1 0 0 1 .684.948V19a2 2 0 0 1-2 2h-1C8.163 21 3 15.837 3 9V8a2 2 0 0 1 2-2z"
+                    />
                   </svg>
                   +1 704-977-4795
                 </li>
@@ -192,23 +194,15 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Call-to-Action Button */}
-          <a
-            href="#"
-            className="hidden md:inline-flex items-center gap-2 bg-[#F6D012] text-[#114524] font-semibold rounded-full px-6 py-3 ml-auto absolute top-10 right-16 hover:brightness-110 transition select-none"
-            aria-label="Let's get started today"
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
           >
-            Let's Get Started Today!
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
         </div>
       </div>
 
@@ -222,7 +216,7 @@ const Footer = () => {
       {/* Mobile CTA Button */}
       <a
         href="#"
-        className="fixed bottom-8 right-6 bg-[#F6D012] text-[#114524] font-semibold rounded-full px-5 py-3 flex items-center gap-2 md:hidden shadow-lg hover:brightness-110 transition select-none"
+        className="fixed bottom-8 -top-8 right-6 bg-[#F6D012] text-[#114524] font-semibold rounded-full px-5 py-3 flex items-center gap-2 md:hidden shadow-lg hover:brightness-110 transition select-none"
         aria-label="Let's get started today"
       >
         Let's Get Started Today!
