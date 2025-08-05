@@ -225,13 +225,14 @@ export default function ContactPage() {
         </div>
 
         {/* Map Section */}
+        {/* Map Section */}
         <div className="mt-12">
           <h2 className="text-2xl font-bold text-moss-900 mb-6 text-center">
             Find Us
           </h2>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508825!2d144.9537353155047!3d-37.81627984202126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f70846d%3A0x5045675218ce670!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1648184539221!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Charlotte%2C%20NC&t=&z=12&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="450"
               style={{ border: 0 }}
