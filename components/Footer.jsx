@@ -213,23 +213,6 @@ const Footer = () => {
         </span>
       </div>
 
-      {/* Mobile CTA Button */}
-      <a
-        href="#"
-        className="fixed bottom-8 -top-8 right-6 bg-[#F6D012] text-[#114524] font-semibold rounded-full px-5 py-3 flex items-center gap-2 md:hidden shadow-lg hover:brightness-110 transition select-none"
-        aria-label="Let's get started today"
-      >
-        Let's Get Started Today!
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-        >
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-      </a>
     </footer>
   );
 };
